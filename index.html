@@ -41,7 +41,24 @@ http://themeforest.net/licenses
         <link rel="stylesheet" href="./css/style-font1.css">
         
         <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
+        <style type="text/css">
+	        .t-code{
+	        	width:420px;
+	        	border: 1px solid #fff;
+	        	border-radius: 10px;
+	        	overflow: hidden;
+	        }
+        	@media screen and (max-width: 450px) {
+			    .t-code{
+		        	width:300px;
+		        	border: 1px solid #fff;
+		        	border-radius: 10px;
+		        	overflow: hidden;
+		        }
+			}
+        </style>
     </head>
+
     <body id="menu" class="alt-bg">
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -65,13 +82,13 @@ http://themeforest.net/licenses
 <!--		<header class="header-top material">-->
 			<div class="logo">
 				<a href="#home">
-					<img src="img/logo_large.png" alt="Logo Brand">
+					<img src="img/yilifangword.png" alt="Logo Brand">
 				</a>
 			</div>
             <div class="menu clearfix">
-                <a href="#about-us">about</a>
+                <a href="#register">About</a>
 				<!-- Add other menu similar to "about" here -->
-                <a href="#contact">contact</a>
+                <a href="#contact">Contact</a>
             </div>
 		</header>
         <!-- END OF site header Menu-->
@@ -85,30 +102,35 @@ http://themeforest.net/licenses
 					<span class="title">Home page</span>
 				</li>
 				<li data-menuanchor="when">
-					<a href="#when" class=""><i class="icon ion ion-android-alarm"></i>
+					<a href="#when" class="">
+						<img style="width: 20px" src="img/liyubai.png">
+						<!-- <i class="icon ion ion-android-alarm"></i> -->
 					</a>
-					<span class="title">When</span>
+					<span class="title">Gift+</span>
 				</li>
+				
+				
 				<li data-menuanchor="register">
-					<a href="#register"><i class="icon ion ion-compose"></i>
+					<a href="#register"><i class="icon ion ion-android-information"></i>
 					</a>
 					<span class="title">Stay in touch</span>
 				</li>
+
 				<li data-menuanchor="about-us">
-					<a href="#about-us"><i class="icon ion ion-android-information"></i>
+					<a href="#about-us"><i class="icon ion ion-qr-scanner"></i>
 					</a>
-					<span class="title">About Us</span>
+					<span class="title">About Gift+</span>
 				</li>
 				<li data-menuanchor="contact">
 					<a href="#contact"><i class="icon ion ion-android-call"></i>
 					</a>
 					<span class="title">Contact</span>
 				</li>
-				<li data-menuanchor="contact">
+				<!-- <li data-menuanchor="contact">
 					<a href="#contact/message"><i class="icon ion ion-email"></i>
 					</a>
 					<span class="title">Write to us</span>
-				</li>
+				</li> -->
 			</ul>
 		</nav>
         <!-- END OF Quick nav icons at left -->
@@ -151,17 +173,17 @@ http://themeforest.net/licenses
 			<div class="section page-home page page-cent" id="s-home">
 				<!-- Logo -->
 				<div class="logo-container">
-					<img class="h-logo" src="img/logo_only.png" alt="Logo">
+					<img class="h-logo" src="img/yilifang.png" alt="Logo">
 				</div>
 				<!-- Content -->
 				<section class="content">
 					
 					<header class="header">
 						<div class="h-left">
-							<h2>New <strong>Company</strong></h2>
+							<h2>壹 · <strong>立方</strong></h2>
 						</div>
 						<div class="h-right">
-							<h3>Lorem <br>agency</h3>
+							<h3>Information <br>Technology</h3>
 							<h4 class="subhead"><a href="#when">Available here soon</a></h4>
 						</div>
 					</header>
@@ -171,8 +193,8 @@ http://themeforest.net/licenses
                 <footer class="p-footer p-scrolldown">
                     <a href="#when">
                         <div class="arrow-d">
-							<div class="before">Tell&nbsp;me</div>
-							<div class="after">When</div>
+							<div class="before">Touch&nbsp;me</div>
+							<div class="after">Now</div>
 							<div class="circle"></div>
 						</div>
                     </a>                        
@@ -189,24 +211,24 @@ http://themeforest.net/licenses
 							 data-date-timezone="+0"
 							 ></div>
 						<header class="header">
-							Coming <strong>soon</strong>
+							礼余 <strong> · Gift+ </strong>
 						</header>
-                        <div class="elem-left">
+                        <!-- <div class="elem-left">
                             <div class="digit hours">00</div>
                             <div class="text">hrs</div>
-                        </div>						
-                        <div class="elem-center">
+                        </div>	 -->					
+                        <!-- <div class="elem-center"> -->
 							<!-- Optional text at top or image logo -->
 							<!--<span class="text top">here in</span>-->
 							<!-- Optional logo at top -->
-							<span class="text top"><img class="img" alt="Logo" src="img/logo_large.png"></span>
-                            <div class="digit days">000</div>
-                            <div class="text">days</div>
-                        </div>
-                        <div class=" elem-right">
+							<span class="text top"><img style="width: 240px;margin-top: 70px;" class="img" alt="Logo" src="img/liyubai.png"></span>
+                            <!-- <div class="digit days">000</div>
+                            <div class="text">days</div> -->
+                        <!-- </div> -->
+                      <!--   <div class=" elem-right">
                             <div class="digit minutes">00</div>
                             <div class="text">min</div>
-                        </div>
+                        </div> -->
 						
 						<!-- second knob here -->
 						<div class="second">
@@ -237,41 +259,7 @@ http://themeforest.net/licenses
                 </footer>
             </div>
             <!-- End of timer page -->
-            
-            <!-- Begin of register page -->
-            <div class="section page-register page page-cent " id="s-register">
-                <section class="content">
-                    <header class="p-title">
-                        <h3>Register <i class="ion ion-compose"></i></h3> 
-                    </header>
-                    <div>
-                        <form id="mail-subscription" class="form magic send_email_form" method="get" action="ajaxserver/serverfile.php">
-                            <p class="invite center">Please, write your email below to stay in touch with us :</p>
-							<div class="fields clearfix">
-								<div class="input">
-									<label for="reg-email">Email </label>
-									<input id="reg-email" class="email_f"  name="email" type="email" required placeholder="your@email.address" data-validation-type="email"></div>
-								<div class="buttons">
-									<button id="submit-email" class="button email_b" name="submit_email">Ok</button>
-								</div>
-							</div>
-                            
-                            <p class="email-ok invisible"><strong>Thank you</strong> for your subscription. We will inform you.</p>
-                        </form>
-                    </div>
-                </section>
-                <footer class="p-footer p-scrolldown">
-                    <a href="#about-us">
-                        <div class="arrow-d">
-							<div class="before">About</div>
-							<div class="after">Lorem</div>
-							<div class="circle"></div>
-						</div>
-                    </a>                        
-                </footer>
-            </div>
-            <!-- End of register page -->
-            
+
             <!-- Begin of about us page -->
             <div class="section page-about page page-cent" id="s-about-us">
                 <section class="content">
@@ -297,6 +285,46 @@ http://themeforest.net/licenses
                 </footer>
             </div>
             <!-- End of about us page -->
+            
+            <!-- Begin of register page -->
+            <div class="section page-register page page-cent " id="s-register">
+                <section class="content">
+                    <header class="p-title">
+                        <h3><strong>Gift</strong><i class="ion ion-plus"></i></h3> 
+                    </header>
+                    <div>
+                    	<div class="t-code">
+                    		<img style="width:100%" src="img/b.png">
+                    	</div>
+                    	
+                        <!-- <form id="mail-subscription" class="form magic send_email_form" method="get" action="ajaxserver/serverfile.php">
+                            <p class="invite center">Please, write your email below to stay in touch with us :</p>
+							<div class="fields clearfix">
+								<div class="input">
+									<label for="reg-email">Email </label>
+									<input id="reg-email" class="email_f"  name="email" type="email" required placeholder="your@email.address" data-validation-type="email"></div>
+								<div class="buttons">
+									<button id="submit-email" class="button email_b" name="submit_email">Ok</button>
+								</div>
+							</div>
+                            
+                            <p class="email-ok invisible"><strong>Thank you</strong> for your subscription. We will inform you.</p>
+                        </form> -->
+                    </div>
+                </section>
+                <footer class="p-footer p-scrolldown">
+                    <a href="#about-us">
+                        <div class="arrow-d">
+							<div class="before">About</div>
+							<div class="after">Gift+</div>
+							<div class="circle"></div>
+						</div>
+                    </a>                        
+                </footer>
+            </div>
+            <!-- End of register page -->
+            
+            
                 
             <!-- Begin of Contact page   -->
             <div class="section page-contact page page-cent  bg-color" data-bgcolor="rgba(95, 25, 208, 0.88)s" id="s-contact">
@@ -348,7 +376,7 @@ http://themeforest.net/licenses
 											<p><a href="http://www.jq22.com">www.jq22.com</a></p>
 										</li>
 										<li  class="show-for-medium-up">
-											<h4>Find us on</h4>
+											<h4>壹立方（大连）信息技术有限公司</h4>
 											<!-- Begin of Social links -->
 											<div class="socialnet">
 												<a href="#"><i class="ion ion-social-facebook"></i></a>
@@ -438,10 +466,10 @@ http://themeforest.net/licenses
 		
 		<!-- Begin of site footer -->
 		<footer class="page-footer">
-			<span>Find us on 
-				<a href="#" ><i class="ion icon ion-social-facebook"></i></a>
+			<span>壹立方（大连）信息技术有限公司
+				<!-- <a href="#" ><i class="ion icon ion-social-facebook"></i></a>
 				<a href="#" ><i class="ion icon ion-social-instagram"></i></a>
-				<a href="#" ><i class="ion icon ion-social-twitter"></i></a>
+				<a href="#" ><i class="ion icon ion-social-twitter"></i></a> -->
 			</span>
 		</footer>
 		<!-- End of site footer -->
